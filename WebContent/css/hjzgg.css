@@ -1,0 +1,61 @@
+.center-div{
+	width:auto;
+	margin-left: 40%;
+	margin-right: 40%;
+	display: block;
+	position: absolute;
+	top:0px;
+	left:0px;
+}
+
+.text-div{
+	margin-top: 80px;
+}
+
+.hjzgg-div{
+	color:transparent;
+	font-size:20px;
+	font-weight: bold;
+	letter-spacing:2px;
+	-webkit-animation-duration: 3s;
+	-webkit-animation-fill-mode: forwards;
+	-webkit-animation-name: hjzgg-move;
+	float:left;
+}
+
+.hjzgg-div-delay-1{
+	-webkit-animation-delay: 1s;
+}
+
+.hjzgg-div-delay-2{
+	-webkit-animation-delay: 2s;
+}
+
+.hjzgg-div-delay-3{
+	-webkit-animation-delay: 3s;
+}
+
+.hjzgg-div-delay-4{
+	-webkit-animation-delay: 4s;
+}
+
+.hjzgg-div-delay-5{
+	-webkit-animation-delay: 5s;
+}
+
+.hjzgg-div-delay-6{
+	-webkit-animation-delay: 6s;
+}
+
+
+@-webkit-keyframes hjzgg-move{
+	from{
+		margin-top: -35px;
+	}
+	
+	to{
+		margin-top: 10px;
+		color:#000000;
+		text-shadow: 2px 2px 3px #222222;
+	}
+}
